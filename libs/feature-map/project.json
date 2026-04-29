@@ -1,0 +1,9 @@
+{
+  "name": "feature-map",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "prefix": "mapa",
+  "sourceRoot": "libs/feature-map/src",
+  "tags": ["type:feature", "scope:web"],
+  "targets": {}
+}

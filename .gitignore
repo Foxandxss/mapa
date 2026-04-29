@@ -7,6 +7,10 @@
 /.angular/
 .angular/
 
+# Nx
+/.nx/cache
+/.nx/workspace-data
+
 # Node modules and dependency files
 /node_modules/
 /package-lock.json
@@ -14,6 +18,9 @@
 
 # Environment files
 /.env
+# Real MapTiler key lives in untracked env files — see ADR 0001
+apps/web/src/environments/environment.local.ts
+apps/web/src/environments/environment.development.local.ts
 
 # Angular CLI and build artefacts
 /.angular-cli.json
@@ -26,3 +33,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea

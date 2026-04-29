@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "esnext",
+    "lib": ["ES2022", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mapa/data-geolocation": ["libs/data-geolocation/src/index.ts"],
+      "@mapa/feature-map": ["libs/feature-map/src/index.ts"],
+      "@mapa/ui-map": ["libs/ui-map/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
