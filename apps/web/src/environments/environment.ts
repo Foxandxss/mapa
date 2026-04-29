@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  maptilerApiKey: 'REPLACE_WITH_YOUR_MAPTILER_KEY',
+  maptilerApiKey: 'zv4NVbc73fkQEI6AiL2T',
 };
